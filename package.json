@@ -91,6 +91,9 @@
     "files": [
       "build/icon.*"
     ],
+    "asarUnpack": [
+      "./app/node_modules/node-notifier/**"
+    ],
     "mac": {
       "target": "dmg",
       "category": "public.app-category.lifestyle"
